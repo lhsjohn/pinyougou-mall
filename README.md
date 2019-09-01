@@ -2,13 +2,13 @@
 分布式商城项目
 #                       分布式商城项目总结
 
-![image-20190829105557069](/Users/lhsjohn/Library/Application Support/typora-user-images/image-20190829105557069.png)
+![image](https://github.com/lhsjohn/pinyougou-mall/blob/master/images/jiagou.png)
 
 ## 一、商家管理后台
 
 ###### 商家审核、品牌管理、规格管理、模版管理、商品分类管理、商品审核、广告类型管理、广告管理、订单查询、商家结算
 
-![image-20190901145634808](/Users/lhsjohn/Library/Application Support/typora-user-images/image-20190901145634808.png)
+![image](https://github.com/lhsjohn/pinyougou-mall/blob/master/images/admin.png)
 
 ##### 1.品牌管理模块功能
 
@@ -215,8 +215,7 @@ b. 执行商品删除后,同时删除每个服务器上的商品详情页
 ## **八、购物车解决方案**
 
 当用户在未登录的情况下，将此购物车存入cookies , 在用户登陆的情况下，将购物车数据存入redis  。如果用户登陆时，cookies中存在购物车，需要将cookies的购物车合并到redis中存储.
-
-![image-20190901151650227](/Users/lhsjohn/Library/Application Support/typora-user-images/image-20190901151650227.png)
+![image](https://github.com/lhsjohn/pinyougou-mall/blob/master/images/cart.png)
 
 
 
